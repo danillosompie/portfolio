@@ -1,0 +1,203 @@
+.body {
+background-color:#FFFF;
+color:black;
+}
+.nav-link b{
+    color:black;
+    font-weight: 600;
+}
+.navbar-f{
+    position:fixed;
+    width:100%;
+    background-color:white;
+    display:block;
+}
+@font-face{
+    font-family:"Inter";
+    src:url('Fontportfolio/InterInter-Regular')
+}
+.font-1{
+    font-family:"Inter";
+    font-size: 20px;
+    margin-top: 14px;
+    color: black;
+}
+.Container-AboutMe{
+    margin-left:50px;
+}
+.jarak-tombol{
+    margin-right: 45px;
+}
+.jarak-tombol-1{
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.jarak-tombol-2{
+    margin-left: 25px;
+    margin-top: 14px;
+}
+.text-aje{
+    font-family:"Inter";
+    font-size:14px;
+    color:black;
+}
+.text-pozizi{
+    margin-top:10px;
+    margin-left: 50px;
+}
+.text-aje-2{
+    font-family:"Inter";
+    font-size:10px;
+    color:black;
+}
+.About-Me-Danillo{
+    font-family: "Inter";
+    font-size: 90px;
+    color:black;
+}
+.PotraitDiri img{
+    position:relative;
+}
+.fotodiri{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.text-subhed{
+    font-family: "Inter";
+    font-size: 24px;
+    color: black;
+}
+.paragraf-text{
+    width: 38%;
+}
+.Container-Sonoan{
+    margin-left: 50px;
+}
+.Container-Sonoan-2{
+    margin-left: 75px;
+}
+.align-left{
+    text-align:left;
+}
+.naikan-dikit{
+    margin-top:-10px;
+}
+.a-link{
+    color:#000000;
+    text-decoration-line: none;
+    text-decoration-color: red;
+}
+.Container-Dikit{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.imageabs{
+    position: static;
+    display: block;
+    width: 100%;
+}
+.Others-bg{
+    background:url("doge-shiba-inu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Others-Txt{
+    font-family: "Inter";
+    font-size: 90px;
+    color:white;
+}
+.text-subhed-o{
+    font-family: "Inter";
+    font-size: 24px;
+    color: white;
+}
+.text-aje-3{
+    font-family:"Inter";
+    font-size:10px;
+    color:white;
+}
+.text-aje-w{
+    font-family:"Inter";
+    font-size:14px;
+    color:white;
+    background-color:black;
+}
+.Container-Dikit2{
+    display: block;
+  text-align: center;
+  width: 100%;
+}
+.text-aje-w2{
+    font-family:"Inter";
+    font-size:8px;
+    color:black;
+}
+.hrs{
+    border-color: white;
+    border-width:medium;
+}
+.Container-Sonoan-3
+{
+    margin-left: 130px;
+}
+
+.kontener-Novo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.kolom-Novo
+{
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.kolom-Img-Novo
+{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.kolom-P
+{
+    margin: 10px 0 0;
+    line-height: 1.5;
+}
+.center {
+margin: auto;
+  width: 40%;
+  border: 3px;
+  padding: 10px;
+}
+.text-centerz
+{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    border: 3px;
+    padding: 10px;
+}
+.video-container 
+{
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.video-column 
+{
+    flex: 1; 
+    max-width: 500px;
+    text-align: center;
+}

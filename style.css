@@ -1,0 +1,379 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    width: 100%;
+}
+@font-face 
+{
+    font-family: "Public Sans";
+    src: url(font/PublicSans-Regular.ttf);
+}
+.wrapper
+{
+    max-width: 1440px;
+    position: relative;
+    align-items: center;
+}
+nav
+{
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+}
+.navbar-settingan a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    transition: 0.1s; 
+    text-decoration: none;
+}
+.navbar-settingan a:hover
+{
+    color: black;
+    font-weight: bolder;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav li
+{
+    display: inline;
+}
+.nav ul li a:hover
+{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.iniNavbarDkk
+{
+    display: flex;
+    justify-content: center;
+    gap: 70px;              
+    padding: 24px 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+.text-body-greetings
+{
+    padding: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+.kontennya-segini-aja
+{
+    margin: 0 20px 10px 20px;
+    flex: auto;
+}
+.supa-big-text
+{
+    font-size: 76pt;
+    text-align: left;
+    padding-right: 10px;
+    flex: auto;
+}
+.kontener-fotodiri
+{
+    justify-content: right;
+    text-align: right;
+    display: block;
+    width: auto;
+    height: auto;   
+}
+.kontener-samping-kiri
+{
+    width: 50%;
+    margin:  0;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bacalah-txt
+{
+    font-size: 11px;
+    flex: 1;
+    width: 48%;
+    margin: 0;
+}
+.nempel-fotodiri
+{
+    display: flex;
+    align-items: flex-end;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 480px)
+{
+    .kontener-img 
+    {
+        max-width: 100%;
+        height: auto;
+    }
+    .kontener-2
+    {
+        flex: 1 1 100%;
+    }
+}
+.video-container 
+{
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+.video-column 
+{
+    flex: 1; 
+    max-width: 500px;
+    text-align: center;
+}
+.responsive-gif 
+{
+    max-width: 100%;
+    height: auto;
+  }
+ .images-Row 
+ {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.responsive-img
+{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+.a-link
+{
+    color:#000000;
+    text-decoration-line: none;
+    text-decoration-color: red;
+}
+.imageabs{
+    max-width: 100%;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+.Others-bg{
+    background:url("doge-shiba-inu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+a.sub-text-cm
+{
+    padding: 26px;
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+    font-family: 'Public Sans';
+}
+a.sub-text-cm:hover
+{
+    padding: 26px;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Public Sans';
+}
+.text-footer
+{
+    font-family:"Public Sans";
+    font-size:10pt;
+    color:grey;
+}
+.kontener-2
+{
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.text-subhed
+{
+    font-family: "Public Sans";
+    font-size: 18pt;
+    color: black;
+    margin-bottom: 0;
+}
+.text-aje{
+    font-family:"Public Sans";
+    font-size:10pt;
+    color:black;
+}
+.text-subhed:hover
+{
+    font-weight: bold;
+}
+.text-page-others
+{
+    font-family: "Public Sans";
+    font-size: 24pt;
+    color: white;
+}
+.Others-bg
+{
+    background:url("doge-shiba-inu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Others-Txt
+{
+    font-size: 72pt;
+    color:white;
+}
+.text-aje-2
+{
+    font-size:10pt;
+    color:white;
+}
+.text-subhed-p
+{
+    font-size: 22pt;
+    color: white;
+}
+.text-others-body
+{
+    font-size: 16pt;
+    color: white;
+    background-color: black;
+    width: 50%;
+}
+.text-footer-p
+{
+    font-size: 10pt;
+    color: white;
+}
+.img-slide-Z {
+  object-fit: contain; 
+  background-color: #fff; 
+  height: 500px; 
+}
+/* Biar gambar proporsional */
+.img-slide-Z {
+  object-fit: contain;
+  background-color: #fff;
+  height: 500px; /* Bisa diubah sesuai tinggi yang kamu mau */
+}
+.carousel-control-prev-Z,
+.carousel-control-next-Z 
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-control-prev-Z 
+{
+  left: 20px;
+}
+.carousel-control-next-Z 
+{
+  right: 20px;
+}
+.carousel-icon-Z 
+{
+  filter: invert(1);
+  width: 20px;
+  height: 20px;
+}
+.carousel-indicators-Z 
+{
+  bottom: 15px;
+}
+.carousel-indicators-Z button 
+{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #999;
+}
+.carousel-indicators-Z .active
+{
+  background-color: #000;
+}
+.Container-Dikit2
+{
+    display: block;
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+.kontener-Novo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.kontener-Novo-2
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.kolom-Novo
+{
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.kolom-Novo-2 
+{
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+    gap: 16px;
+}
+.kolom-Img-Novo
+{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.kolom-P
+{
+    margin: 10px 0 0;
+    line-height: 1.5;
+}
+.center {
+ text-align: center;
+ border: 3px;
+ margin: auto;
+}
+.text-centerz
+{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    border: 3px;
+    padding: 10px;
+}

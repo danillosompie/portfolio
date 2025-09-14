@@ -1,116 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-      content="width=device-width, initial-scale = 1, shrink-to-fit = no">
-    <meta name="format-detection" content = "no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-tittle" content="Portfolio">
-    <meta name="mobile-web-app-capable" content = "yes">
-<title> Portfolio </title> 
+        <meta name="viewport"
+          content="width=device-width, initial-scale = 1, shrink-to-fit = no">
+        <meta name="format-detection" content = "no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Portfolio">
+        <meta name="mobile-web-app-capable" content = "yes">
+    <title>Danillo's Portfolio</title>
     <link rel=icon href="logoweb.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="portfoliowebCSS.css"/>
-   <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    </head>
-    <body>
-<!--Navbar-->
-<div class="navbar-f">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link" aria-current="page" href="index.html">
-        <div class="font-1"><b>Home</b></div>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Collection.html">
-        <div class="font-1">Collections</div>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Others.html">
-        <div class="font-1">Others</div>
-      </a>
-    </li>
-  </ul>
-</div>
-<!--Ujung Navbar-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- CSS & Bootstrap -->
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+    <!--Navbar-->
+    <nav>
+        <div class="navbar-settingan iniNavbarDkk">
+            <a href="index.html"><b>Home</b></a>
+            <a href="Collections.html">Collections</a>
+            <a href="Collections2.html">Others</a>
+        </div>
+    </nav>
+    </header>
+    <br>
+    <!--Slider-->
+        <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="Revisi/Slider satu.jpg" class="d-block w-100" alt="slider 1">
+        </div>
+        <div class="carousel-item">
+        <img src="Revisi/slider dua.jpg" class="d-block w-100" alt="slider 2">
+        </div>
+        <div class="carousel-item">
+        <img src="Revisi/slider tiga.jpg" class="d-block w-100" alt="Go to Contact Me">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!--Greetings-->
+        <div class="text-body-greetings"> 
+                Hello! Welcome to Danillo Sompie's Portfolio Website.<br>
+                (づ ◕‿◕ )づ
+            </div>
+            <br>
+    <!--About Me & Photos-->
+    <div class="kontennya-segini-aja">
+            <h3>About Me</h3>
+        <h1 class="supa-big-text">Danillo Sompie</h1>
+        <br>
+        <!--Introduction-->
+        <div class="kontener-samping-kiri">
+            <h4>Hello!</h4>
+            <p>I am a fresh graduate in Visual Communication Design from Bina Nusantara University with considerable experiences in graphic design, leadership, organizational, and project management. Skilled in creative problem-solving, collaboration, very eager and high initiative to learn new things.
+            </p>
+        </div>
+        <!--Photosnya-->
+        <div class="nempel-fotodiri">
+            <!--Bacalah-->
+            <div class="bacalah-txt"> 
+                <p><b>READ ME / PENTING!</b></p>
+                <p>Please select <b>"Collections"</b> from the navigation bar to view my portfolio.</p> 
+                <p>Silahkan tekan <b>"Collections"</b> pada menu bar untuk melihat portofolioku.</p>
+            </div>
+            <a href="doge-shiba-inu.gif"> <img class="kontener-fotodiri" src="fotodiri.JPG" alt=Me!></a>
+            </div>
+        </div>
+    </div>
+<br>
+    <!--Contact Me-->
+    <div class="kontennya-segini-aja">
+        <h1 class="supa-big-text">Contact Me</h1>
+        <a class="sub-text-cm" href="https://www.instagram.com/sompiednl/">Instagram</a>
+        <a class="sub-text-cm" href="https://www.linkedin.com/in/danillosompie">LinkedIn</a>
+        <a class="sub-text-cm" href="mailto:sompiednl@gmail.com?subject=subject text">Email</a>
         <br>
         <br>
-        <br>
+    <!--Footer-->
+    <footer>
         <hr>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Revisi/Slider satu.jpg" class="d-block w-100" alt="Click Collections">
-    </div>
-    <div class="carousel-item">
-      <img src="Revisi/slider dua.jpg" class="d-block w-100" alt="Click Collections">
-    </div>
-    <div class="carousel-item">
-      <img src="Revisi/slider tiga.jpg" class="d-block w-100" alt="Click Collections">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-        <div class="container text-aje text-pozizi"> 
-            Hello! Welcome to Danillo Sompie's Portfolio Website.<br>
-            (づ ◕‿◕ )づ
-        </div>
-    <br>
-<!---AboutMe--->
-<div class="Container-AboutMe"> <div class="text-subhed">
-        <h3>About Me</h3> </div>
-        </div>
-<div class="Container-AboutMe">
-<h1 class="About-Me-Danillo">Danillo Sompie</h1>
-        </div>
-<div class="fotodiri">
-        <a href="doge-shiba-inu.gif"> <img src="fotodiri.JPG" alt=Me> </a>
-     </div>
-     <!--Bacalah-->
-     <div class="text-pozizi paragraf-text text-aje-2"> 
-      <p><b>READ ME / PENTING!</b></p>
-      <p>Please select <b>"Collections"</b> from the navigation bar to view my portfolio.</p> 
-      <p>Silahkan tekan <b>"Collections"</b> pada menu bar untuk melihat portofolioku.</p>
-    </div>
-        <div class="text-pozizi"> </div> <div class="text-subhed text-pozizi"><h3>Hello!</h3>
-        </div>
-        <div class="text-pozizi paragraf-text text-aje">
-        <P>I am a fresh graduate in Visual Communication Design from Bina Nusantara University with considerable experiences in graphic design, leadership, organizational, and project management. Skilled in creative problem-solving, collaboration, very eager and high initiative to learn new things.
-            </P> </div>
         <br>
-        <br>
-    <!--ContactMe-->
-        <div class="Container-AboutMe"><h1 class="About-Me-Danillo">Contact Me</h1>
-        </div>
-    <a class="Container-AboutMe text-subhed" href="https://www.instagram.com/sompiednl/">Instagram</a>
-        <a class="Container-Sonoan text-subhed" href="https://www.linkedin.com/in/danillosompie">LinkedIn</a>
-        <a class="Container-Sonoan-2 text-subhed" href="mailto:sompiednl@gmail.com?subject=subject text"> 
-        Email</a>
-<!--Footer-->
-<footer>
-<hr>
-    <br>
-    <br>
-    <div class="container text-aje-2"> 
-Danillo Sompie <br>
- Portfolio Website</div>
-        </footer>
-        <br>
-              <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </body>
+        <div class="text-footer"> 
+        Danillo Sompie <br>
+        Portfolio Website</div>
+    </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
 </html>
